@@ -23,9 +23,9 @@ public class UserController {
 		return "sudhanva-v5";
 	}
 	
-	@GetMapping("/users")
-	public List<Users> users() {
-		return repo.findAll();
-	}
+//	@GetMapping("/users")
+//	public List<Users> users() {
+//		return repo.findAll();
+//	}
 	
 }
