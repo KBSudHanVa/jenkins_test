@@ -20,7 +20,7 @@ public class UserController {
 
 	@GetMapping("/name")
 	public String name() {
-		return "sudhanva-v4";
+		return "sudhanva-v5";
 	}
 	
 	@GetMapping("/users")
